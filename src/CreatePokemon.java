@@ -1,4 +1,4 @@
-public class createPokemon {
+public class CreatePokemon {
 
     private static Pokemon[] pokemons = new Pokemon[18];
 
@@ -27,7 +27,6 @@ public class createPokemon {
         Pokemon pokemon = new Pokemon(id, name, type, hp, lvl);
         return pokemon;
     }
-
 
     private static void list(Pokemon[] pokemons) {
         for (Pokemon pokemon : pokemons){
