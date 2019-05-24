@@ -6,15 +6,14 @@ public class MainGame{
         //Test
         Electric Pikachu = new Electric("Pikachu");
         Pikachu.setHp(45);
-        System.out.println(Pikachu.getName());
-        System.out.println(Pikachu.getType());
-        System.out.println(Pikachu.getHp());
+        Pikachu.getInfo();
         Fire Charmander = new Fire("Charmander");
-        System.out.println(Charmander.getName());
-        System.out.println(Charmander.getType());
+        Charmander.setHp(45);
+        Charmander.getInfo();
         Water Squirtle = new Water("Squirtle");
-        System.out.println(Squirtle.getName());
-        System.out.println(Squirtle.getType());
+        Squirtle.setHp(45);
+        Squirtle.getInfo();
+
     }
 
 }

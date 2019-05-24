@@ -19,9 +19,12 @@ public class Pokemon {
         this.type = type;
         this.hp = hp;
     }
+    public void getInfo(){
+        System.out.format("\nName: %s \nType: %s \nHP: %s \n", this.name, this.type, this.hp);
+    }
 
     public String getName() {
-        return name;
+        return "Name: " + name;
     }
 
     public void setName(String name) {
@@ -29,15 +32,15 @@ public class Pokemon {
     }
 
     public String getType() {
-        return type;
+        return "Type: " + type;
     }
 
     public void setType(String type) {
         this.type = type;
     }
 
-    public int getHp() {
-        return hp;
+    public String getHp() {
+        return "HP: " + hp;
     }
 
     public void setHp(int hp) {
